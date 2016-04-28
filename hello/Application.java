@@ -5,14 +5,14 @@ import org.springframework.context.annotation.*;
 
 @Configuration
 @ComponentScan
-
+//it is testing
 public class Application {
 
     @Bean
     MessageService mockMessageService() {
         return new MessageService() {
             public String getMessage() {
-              return "Hello World!";
+              return "Hello World! this is new message";
             }
         };
 		// it is testingsdfsdfsf
